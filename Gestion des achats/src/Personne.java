@@ -1,6 +1,6 @@
 
 public class Personne {
-	String nom,prenom , adress ;
+	private String nom,prenom , adress ;
 
 	public Personne() {
 		this.nom="Emna";
