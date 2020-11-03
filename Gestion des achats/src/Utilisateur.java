@@ -1,6 +1,7 @@
 
 public class Utilisateur extends Personne {
 	private String pseudo , motpasse;
+	private String codep ;
 	
 	public Utilisateur() {
 		super();
@@ -29,7 +30,12 @@ public class Utilisateur extends Personne {
 	public void setMotpasse(String motpasse) {
 		this.motpasse = motpasse;
 	}
-
+public void setCodep(String p) {
+	this.codep= p;
+}
+public String getCodep() {
+	 return this.codep;
+}
 	
 	public String toString() {
 		return "pseudo utilisateur :" + pseudo + ", motpasse:" + motpasse ;

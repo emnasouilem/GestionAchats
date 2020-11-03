@@ -47,9 +47,16 @@ public class Produit {
 		this.nom = nom;
 	}
 	
+	public boolean recherch(String nom) {
+		boolean var=false;
+		if (this.nom==nom) var=true; 
+		return var;
+	}
+	
 	public String toString() {
 		return "Le produit  de referance :" + ref + " nom :"+nom+" qantite:" + qte + ", prix unitaire:" + prix + ", description:" + description;
 	}
+	
 	
 
 }
