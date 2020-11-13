@@ -1,3 +1,4 @@
+package metier;
 
 public class Personne {
 	private String nom,prenom , adress ;

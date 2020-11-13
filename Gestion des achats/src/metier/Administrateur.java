@@ -1,3 +1,4 @@
+package metier;
 
 public class Administrateur extends Personne {
 	private String code,matricule;
